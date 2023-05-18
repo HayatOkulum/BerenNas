@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(eskenarucgen));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -41,20 +42,23 @@
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = global::BerenNas.Properties.Resources.eskenarucgen;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(-3, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(564, 412);
+            this.pictureBox1.Size = new System.Drawing.Size(564, 408);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(582, 45);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(575, 55);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(432, 25);
+            this.label1.Size = new System.Drawing.Size(326, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Eşkenar Üçgenin Bir Kenarını Giriniz (a)";
             // 
@@ -62,26 +66,29 @@
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(689, 89);
+            this.label2.Location = new System.Drawing.Point(597, 120);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 25);
+            this.label2.Size = new System.Drawing.Size(102, 31);
             this.label2.TabIndex = 2;
             this.label2.Text = "a =";
             // 
             // tB_a
             // 
             this.tB_a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.tB_a.Location = new System.Drawing.Point(731, 85);
+            this.tB_a.Location = new System.Drawing.Point(641, 114);
+            this.tB_a.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tB_a.Multiline = true;
             this.tB_a.Name = "tB_a";
-            this.tB_a.Size = new System.Drawing.Size(45, 35);
+            this.tB_a.Size = new System.Drawing.Size(124, 42);
             this.tB_a.TabIndex = 3;
             // 
             // btn_hesapla
             // 
-            this.btn_hesapla.Location = new System.Drawing.Point(791, 91);
+            this.btn_hesapla.Location = new System.Drawing.Point(773, 112);
+            this.btn_hesapla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_hesapla.Name = "btn_hesapla";
-            this.btn_hesapla.Size = new System.Drawing.Size(75, 23);
+            this.btn_hesapla.Size = new System.Drawing.Size(107, 42);
             this.btn_hesapla.TabIndex = 4;
             this.btn_hesapla.Text = "Hesapla";
             this.btn_hesapla.UseVisualStyleBackColor = true;
@@ -91,9 +98,10 @@
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(612, 173);
+            this.label3.Location = new System.Drawing.Point(585, 208);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(211, 32);
+            this.label3.Size = new System.Drawing.Size(246, 39);
             this.label3.TabIndex = 5;
             this.label3.Text = "Üçgenin Çevresi =";
             // 
@@ -101,17 +109,19 @@
             // 
             this.sonuc.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.sonuc.ForeColor = System.Drawing.Color.Red;
-            this.sonuc.Location = new System.Drawing.Point(813, 173);
+            this.sonuc.Location = new System.Drawing.Point(797, 209);
+            this.sonuc.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.sonuc.Name = "sonuc";
-            this.sonuc.Size = new System.Drawing.Size(103, 32);
+            this.sonuc.Size = new System.Drawing.Size(120, 39);
             this.sonuc.TabIndex = 6;
             this.sonuc.Text = "??";
             // 
             // eskenarucgen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 436);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(921, 418);
             this.Controls.Add(this.sonuc);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btn_hesapla);
@@ -119,8 +129,14 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(937, 457);
+            this.MinimumSize = new System.Drawing.Size(937, 457);
             this.Name = "eskenarucgen";
-            this.Text = "eskenarucgen";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Eşkenar Üçgenimizin Çevre Hesaplaması :)";
             this.Load += new System.EventHandler(this.eskenarucgen_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

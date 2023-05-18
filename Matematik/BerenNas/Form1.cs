@@ -44,5 +44,21 @@ namespace BerenNas
         {
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Beklesene kardeşim daha yazmadık :)");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Beklesene kardeşim yükleniyor işte çatlama :)");
+
+        }
     }
 }
