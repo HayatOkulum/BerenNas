@@ -52,7 +52,7 @@ namespace BerenNas
 
         private void button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Beklesene kardeşim daha yazmadık :)");
+            MessageBox.Show("Beklesene alooo daha yazmadık benim on kolum mu var :)");
             Rectangle form4 = new Rectangle();
             this.Visible = false;
             form4.ShowDialog();

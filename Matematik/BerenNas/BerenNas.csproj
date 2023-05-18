@@ -115,6 +115,9 @@
     <EmbeddedResource Include="Anasayfa.resx">
       <DependentUpon>Anasayfa.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Kare.resx">
+      <DependentUpon>Kare.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -158,6 +161,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="8e802a0b020d2a38f427ac80a70d23b0 %281%29.ico" />
+    <None Include="Resources\karenin-alani-nasil-bulunur-karenin-alan-hesaplama-formulu-e1-1619438753406.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

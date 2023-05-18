@@ -43,7 +43,7 @@
             // 
             this.pictureBox1.BackgroundImage = global::BerenNas.Properties.Resources.eskenarucgen;
             this.pictureBox1.Location = new System.Drawing.Point(-3, 2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(564, 408);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -61,6 +61,7 @@
             this.label1.Size = new System.Drawing.Size(326, 20);
             this.label1.TabIndex = 1;
             this.label1.Text = "Eşkenar Üçgenin Bir Kenarını Giriniz (a)";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -77,7 +78,7 @@
             // 
             this.tB_a.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.tB_a.Location = new System.Drawing.Point(641, 114);
-            this.tB_a.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tB_a.Margin = new System.Windows.Forms.Padding(4);
             this.tB_a.Multiline = true;
             this.tB_a.Name = "tB_a";
             this.tB_a.Size = new System.Drawing.Size(124, 42);
@@ -86,7 +87,7 @@
             // btn_hesapla
             // 
             this.btn_hesapla.Location = new System.Drawing.Point(773, 112);
-            this.btn_hesapla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_hesapla.Margin = new System.Windows.Forms.Padding(4);
             this.btn_hesapla.Name = "btn_hesapla";
             this.btn_hesapla.Size = new System.Drawing.Size(107, 42);
             this.btn_hesapla.TabIndex = 4;
@@ -131,7 +132,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("MV Boli", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(937, 457);
             this.MinimumSize = new System.Drawing.Size(937, 457);
             this.Name = "eskenarucgen";
