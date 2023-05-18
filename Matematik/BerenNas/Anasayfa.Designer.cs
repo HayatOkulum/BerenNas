@@ -1,6 +1,6 @@
 ﻿namespace BerenNas
 {
-    partial class Form1
+    partial class Anasayfa
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Anasayfa));
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lblWritesLink = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,7 +71,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::BerenNas.Properties.Resources.indir__6_;
-            this.pictureBox1.Location = new System.Drawing.Point(298, 79);
+            this.pictureBox1.Location = new System.Drawing.Point(302, 79);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(389, 179);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -90,23 +90,24 @@
             this.label1.Text = "Matematik Programım :)";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // lblWritesLink
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(423, 324);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(268, 25);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Yapan: Beren Nas Sarıahmet";
+            this.lblWritesLink.AutoSize = true;
+            this.lblWritesLink.Font = new System.Drawing.Font("MV Boli", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblWritesLink.Location = new System.Drawing.Point(423, 324);
+            this.lblWritesLink.Name = "lblWritesLink";
+            this.lblWritesLink.Size = new System.Drawing.Size(268, 25);
+            this.lblWritesLink.TabIndex = 7;
+            this.lblWritesLink.Text = "Yapan: Beren Nas Sarıahmet";
+            this.lblWritesLink.Click += new System.EventHandler(this.lblWritesLink_Click);
             // 
-            // Form1
+            // Anasayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(703, 358);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lblWritesLink);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
@@ -115,7 +116,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(719, 397);
             this.MinimumSize = new System.Drawing.Size(719, 397);
-            this.Name = "Form1";
+            this.Name = "Anasayfa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Matematik Projesi :)";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -132,7 +133,7 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lblWritesLink;
     }
 }
 

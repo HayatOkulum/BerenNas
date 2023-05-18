@@ -89,19 +89,31 @@
     <Compile Include="eskenarucgen.Designer.cs">
       <DependentUpon>eskenarucgen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Anasayfa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kare.Designer.cs">
+      <DependentUpon>Kare.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rectangle.Designer.cs">
+      <DependentUpon>Rectangle.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="eskenarucgen.resx">
       <DependentUpon>eskenarucgen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
