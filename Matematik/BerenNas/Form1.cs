@@ -42,7 +42,7 @@ namespace BerenNas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Matematik Alemine Hoşgeldiniz :)";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
