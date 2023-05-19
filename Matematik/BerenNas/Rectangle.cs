@@ -16,5 +16,20 @@ namespace BerenNas
         {
             InitializeComponent();
         }
+
+     
+
+
+        private void calculate_Click(object sender, EventArgs e)
+        {
+            int a;
+            int b;
+            int around;
+            a = Convert.ToInt32(answerA.Text);
+            b = Convert.ToInt32(answerB.Text);
+            around = (a * 2) + (b * 2);
+
+            lblResult.Text = around.ToString();
+        }
     }
 }

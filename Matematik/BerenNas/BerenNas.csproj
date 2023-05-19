@@ -26,7 +26,7 @@
     <InstallUrl>https://berennas.devrimmehmet.com/Matematik/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationRevision>6</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -109,6 +109,12 @@
     <Compile Include="Rectangle.Designer.cs">
       <DependentUpon>Rectangle.cs</DependentUpon>
     </Compile>
+    <Compile Include="updatenotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updatenotes.Designer.cs">
+      <DependentUpon>updatenotes.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="eskenarucgen.resx">
       <DependentUpon>eskenarucgen.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +134,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Rectangle.resx">
+      <DependentUpon>Rectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updatenotes.resx">
+      <DependentUpon>updatenotes.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -147,12 +159,12 @@
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 ve x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 </ProductName>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
@@ -161,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="8e802a0b020d2a38f427ac80a70d23b0 %281%29.ico" />
+    <None Include="Resources\dikdortgen.jpg" />
     <None Include="Resources\karenin-alani-nasil-bulunur-karenin-alan-hesaplama-formulu-e1-1619438753406.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

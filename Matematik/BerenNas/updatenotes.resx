@@ -117,6 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Versiyon 1005
+Bu projemde en sevdiğim ders matematik dersi ile 7 yaşından beri yaptığım iş yazılım işini birleştirdim .
+Bu projede şuan gördüğümüz çevre hesaplama konusunu baz aldım.
+Projemde yeni öğrenmeye başladığım C# dili ile yazdım ve biraz düşündüğümden de daha kolaydı .
+Bu projeyi şuan ki halini 1 günde yaptım 
+bu projede kullandığım kodlar:
+Message box
+Text box
+Label
+Picture box
+İnt(Değişkenler)
+....... vb.
+Bu projeyi ilerleteciğim ama şimdilik bu kadar 
+( Bu yazılar 19.05.2023 tarihinde yazılmıştır.)</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

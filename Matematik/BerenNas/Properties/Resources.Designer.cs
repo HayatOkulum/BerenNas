@@ -63,6 +63,16 @@ namespace BerenNas.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dikdortgen {
+            get {
+                object obj = ResourceManager.GetObject("dikdortgen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap eskenarucgen {
             get {
                 object obj = ResourceManager.GetObject("eskenarucgen", resourceCulture);

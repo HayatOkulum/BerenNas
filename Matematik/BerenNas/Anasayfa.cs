@@ -91,5 +91,13 @@ namespace BerenNas
 
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            updatenotes form2 = new updatenotes();
+            this.Visible = false;
+            form2.ShowDialog();
+            this.Visible = true;
+        }
     }
 }

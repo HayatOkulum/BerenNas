@@ -28,26 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Kare));
             this.lblTitle = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.tBEdge = new System.Windows.Forms.TextBox();
             this.btnSolition = new System.Windows.Forms.Button();
             this.lblTitle2 = new System.Windows.Forms.Label();
             this.lblResult = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::BerenNas.Properties.Resources.karenin_alani_nasil_bulunur_karenin_alan_hesaplama_formulu_e1_1619438753406;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(430, 373);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblTitle
             // 
@@ -112,6 +102,17 @@
             this.lblResult.Text = "?_?";
             this.lblResult.Click += new System.EventHandler(this.label4_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::BerenNas.Properties.Resources.karenin_alani_nasil_bulunur_karenin_alan_hesaplama_formulu_e1_1619438753406;
+            this.pictureBox1.Location = new System.Drawing.Point(12, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(430, 373);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Kare
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -125,6 +126,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Kare";
             this.Text = "Karenin Bir Kenarını Girniz (a)";
             this.Load += new System.EventHandler(this.Kare_Load);
